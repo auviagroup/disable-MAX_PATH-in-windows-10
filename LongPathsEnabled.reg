@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; created by MAK / https://github.com/auviagroup/disable-MAX_PATH-in-windows-10
+; Applies to windows-10 (version 1607 and later)
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"LongPathsEnabled"=dword:00000001
